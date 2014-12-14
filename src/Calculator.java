@@ -19,7 +19,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author MAHADI HASAN NAHID
+ * @Ahgeryk
  */
 public class Calculator {
 
