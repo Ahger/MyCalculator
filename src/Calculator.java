@@ -225,7 +225,7 @@ public class Calculator {
         //================Menu================//
 
         menuBar = new JMenuBar();
-        veiwMenu = new JMenu("veiw");
+        veiwMenu = new JMenu("View");
 
         // veiw1 = new JMenuItem("Nimbuzz");
         // veiw2 = new JMenuItem("Windows");
@@ -420,7 +420,7 @@ public class Calculator {
                     answer = Math.sqrt(value1);
                     displayValue = "";
                     displayField1.setText("" + answer);
-                    displayField2.setText("Anser: " + answer);
+                    displayField2.setText("Answer: " + answer);
                 }
                 if (event.getSource() == plusMinusButton) {
 
@@ -522,17 +522,17 @@ public class Calculator {
                 if(event.getSource() == about) {
 
                     JOptionPane.showMessageDialog(mainFrame, ""
-                                    + "Md Mahadi Hasan Nahid\n"
-                                    + "Dept. of CSE, SUST\n"
-                                    + "nahid@student.sust.edu\n"
-                                    + "01738150127\n", "About",
+                                    + "Khmirov Evgeny\n"
+                                    + "Moscow, MIREA\n"
+                                    + "goldshire94@gmail.com\n"
+                                    + "89267533550\n", "About",
                             JOptionPane.INFORMATION_MESSAGE);
                 }
                 if(event.getSource() == version) {
                     JOptionPane.showMessageDialog(mainFrame, ""
-                            + "CalculatorMini\n"
-                            + "Black Edition\n"
-                            + "Version-2.7.1");
+                            + "Calculator\n"
+                            + "\n"
+                            + "Version-1");
                 }
 
 
